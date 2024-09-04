@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Damage Counter</title>
+    </head>
+    <body>
+        <div>
+            <h1>Damage Dealt:</h1>
+            <h2 id="count-el">0</h2>
+
+            <button id="increment-btn" onclick="increment()">ADD DAMAGE</button>
+            <button id="subtract-btn" onclick="subtract()">SUBTRACT DAMAGE</button>
+            <button id="save-btn" onclick="save()">SAVE</button>
+
+            <h3>Damage Log: </h3>
+            <p id="pass-log"></p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
